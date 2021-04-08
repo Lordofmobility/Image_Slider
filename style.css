@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+
+#canvas {
+    height: 600px;
+    width: 900px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.arrow:hover {
+    background: green;
+}
+
+.image{
+    width: 100px;
+    height: 75;
+    object-fit: contain;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+#changingimage {
+    width: 900;
+    height: 600;
+}

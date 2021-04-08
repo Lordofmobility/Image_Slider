@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>
+        Image Slider
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1>Image Slider</h1>
+        <div id="canvas">
+            <img id="changingimage" src="Image_1.jpg">
+            <div class="arrow"><img id="left" src="left arrow.png" class="image" onclick="left_click()">
+            </div>
+            <div class="arrow"><img id="right" src="right arrow.png" class="image" onclick="right_click()"></div>
+        </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
